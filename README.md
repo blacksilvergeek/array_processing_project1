@@ -5,7 +5,7 @@
 
 
 ## project1 narrow band part
-
+.
 │  main_1_1.m for question Signal model
 │  main_1_2.m for question Estimation of directions
 │  main_1_4.m for question Joint estimation
