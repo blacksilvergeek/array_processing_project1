@@ -16,7 +16,7 @@ for i=1:length(numbers)
     s(i)=Collection(numbers(i)); % Construct s
 end
 sigma=0;
-x=gendata_conv2(s,P,N,sigma);
+x=gendata_conv(s,P,N,sigma);
 for i=1:4*P
     for m=1:N-3
         X(i,m)=x((m-1)*P+i);
@@ -41,7 +41,7 @@ for i=1:length(numbers)
 end
 sigma=0.5;
 
-x=gendata_conv2(s,P,N,sigma);
+x=gendata_conv(s,P,N,sigma);
 for i=1:2*P
     for m=1:Ns-1
         X_2(i,m)=x((m-1)*P+i);
